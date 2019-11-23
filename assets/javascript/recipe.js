@@ -1,14 +1,6 @@
 var mealDiet;
 var mealType;
 
-// $(document).on("click", ".diet", function () {
-//     mealDiet = $(this).attr("data-diet");
-// }) 
-
-// $(document).on("click", ".meal-type", function () {
-//     mealType = $(this).attr("data-meal");
-// }) 
-
 function recipeData() {
     mealDiet = $(".diet").attr("data-diet");
     mealType = $(".meal-type").attr("data-meal");
@@ -77,10 +69,3 @@ $(document).on('click', '.recipe-click-button', function () {
         type: 'inline'
     });
 });
-
-
-
-
-
-
-
